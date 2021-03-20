@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cyber Safety</title>
+    <style>
+        .jumbotron {
+            max-width: 700px;
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+<div class="jumbotron" style="background:lightgray;">
+
+    <form method="POST">
+        <h1>Enter the details</h1>
+        <label for="city">Choose your city/state:</label>
+
+        <select name="city" id="city">
+            <option value="select">Select Your City or State</option>
+            <option value="Assam">Assam</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Jammu">Jammu</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Tamil Nadu">Rest of Tamil Nadu</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Thane">Thane</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Orissa">Orissa</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+
+        </select>
+        <br><br>
+        <label for="socialMedia">Enter the social media platform: (optional)</label>
+        <input type="socialMedia" id="socialMedia" name="socialMedia" value="">
+        <br><br>
+        <label for="profileName">Enter the profile name: (optional)</label>
+        <input type="profileName" id="profileName" name="profileName" value="">
+        <br><br>
+        <p>
+            <input class="btn btn-danger btn-lg" onclick="window.open('http://127.0.0.1:5000');"
+                   type="submit" value="Submit & Proceed"/>
+        </p>
+    </form>
+
+</div>
+
+
+</body>
+</html>
